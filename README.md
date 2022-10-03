@@ -6,6 +6,7 @@ Link to the site: https://priced-in-whatever.com/
 
 -	Built a web app to allow users to visualize the --- between 2 stocks for a time span, using Python Flask and AWS.
 -	Using Python libraries such as yfinance, openpyxl and more.
+-	Frontend: HTML, CSS, JavaScript. Backend: Python Flask. The site is hosted on AWS.
 
 Site Preview:
 
