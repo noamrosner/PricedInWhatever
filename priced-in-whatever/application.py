@@ -21,7 +21,7 @@ import plotly.express as px
 from flask import send_from_directory
 
 application = Flask(__name__)
-application.config['SECRET_KEY'] = 'hjshjhdjah kjshkjdhjs'
+application.config['SECRET_KEY'] = 'SECRETKEY'
 
 
 @application.route('/', methods=['GET', 'POST'])
