@@ -1,0 +1,144 @@
+h1 {
+    font-weight: normal;
+    color: black;
+    text-align: center;
+    padding-top: 20px;
+    font-family: "Courier New";
+    font-size: 46px;
+}
+.div1{
+    color: black;
+    text-align: center;
+    font-family: "Courier New";
+    font-size: 28px;
+    padding-bottom: 40px;
+}
+
+.tickerDiv {
+
+}
+
+.homeBtn {
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: "Courier New";
+    margin-right: 80px;
+    background-color: white;
+    color: black;
+
+}
+
+.syntaxBtn{
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: "Courier New";
+    margin-left: 80px;
+    background-color: white;
+    color: black;
+}
+
+.form {
+    color: black;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    font-family: "Courier New";
+}
+
+.label {
+    font-size: 20px;
+}
+
+.tickerInput {
+    width: 200px;
+    border: 2px solid black;
+    font-family: "Courier New";
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.dateFromInput {
+    font-family: "Courier New";
+    height: 45px;
+    font-size: 14px;
+    margin-right: 40px;
+    padding-left: 10px;
+}
+
+.dateEndInput {
+    font-family: "Courier New";
+    font-size: 14px;
+    padding-left: 10px;
+    height: 45px;
+}
+
+.header1 {
+    padding-top: 30px;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    font-family: "Courier New";
+}
+
+.span {
+    font-family: "Courier New";
+    font-size: 18px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.syntaxBtn:hover {
+      background-color: gray;
+      color: white;
+}
+
+.homeBtn:hover {
+      background-color: gray;
+      color: white;
+}
+
+
+.submitBtn {
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: auto;
+    margin-top: 20px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: "Courier New";
+}
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+footer {
+  text-align: center;
+  font-family: "courier new";
+  padding-top: 400px;
+}
+
+.disclaimer {
+  font-size: 10px;
+}

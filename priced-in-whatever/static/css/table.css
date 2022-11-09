@@ -1,0 +1,662 @@
+ /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .header1 {
+        padding-top: 30px;
+        color: black;
+        text-align: center;
+        padding: 10px;
+        margin: auto;
+        font-family: "Courier New";
+    }
+
+    h1 {
+        font-weight: normal;
+        color: black;
+        text-align: center;
+        padding-top: 20px;
+        font-family: "Courier New";
+        font-size: 46px;
+    }
+
+    h2 {
+      text-align: center;
+      font-weight: 10;
+      font-family: "courier new";
+}
+
+    .div1{
+        color: black;
+        text-align: center;
+        font-family: "Courier New";
+        font-size: 28px;
+        padding-bottom: 40px;
+    }
+
+
+    .homeBtn {
+        border: none;
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 24px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        font-family: "Courier New";
+        margin-right: 80px;
+        background-color: white;
+        color: black;
+
+    }
+
+    .syntaxBtn{
+        border: none;
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 24px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        font-family: "Courier New";
+        margin-left: 80px;
+        background-color: white;
+        color: black;
+    }
+
+    .submitBtn {
+        border: none;
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 24px;
+        margin: auto;
+        margin-top: 20px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        font-family: "Courier New";
+    }
+
+    .downloadBtn{
+        margin: auto;
+        border: none;
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 24px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        font-family: "Courier New";
+        background-color: white;
+        color: black;
+    }
+    .form {
+        color: black;
+        text-align: center;
+        padding: 10px;
+        margin: auto;
+        font-family: "Courier New";
+    }
+
+    .label {
+        font-size: 20px;
+    }
+
+    .tickerInput {
+        width: 200px;
+        border: 2px solid black;
+        font-family: "Courier New";
+        font-size: 18px;
+        text-align: center;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    .dateFromInput {
+        font-family: "Courier New";
+        height: 45px;
+        font-size: 14px;
+        margin-right: 40px;
+        padding-left: 20px;
+    }
+
+    .dateEndInput {
+        font-family: "Courier New";
+        font-size: 14px;
+        padding-left: 20px;
+        height: 45px;
+    }
+
+
+    .span {
+        font-family: "Courier New";
+        font-size: 18px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    footer {
+        text-align: center;
+        font-family: "courier new";
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+
+    .disclaimer {
+      font-size: 10px;
+    }
+
+    #lineChart {
+      display: block;
+      margin-left: auto;
+      margin-right: auto
+    }
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+        .header1 {
+        padding-top: 30px;
+        color: black;
+        text-align: center;
+        padding: 10px;
+        margin: auto;
+        font-family: "Courier New";
+    }
+
+    h1 {
+        font-weight: normal;
+        color: black;
+        text-align: center;
+        padding-top: 20px;
+        font-family: "Courier New";
+        font-size: 46px;
+    }
+
+    h2 {
+      text-align: center;
+      font-weight: 10;
+      font-family: "courier new";
+}
+
+    .div1{
+        color: black;
+        text-align: center;
+        font-family: "Courier New";
+        font-size: 28px;
+        padding-bottom: 40px;
+    }
+
+
+    .homeBtn {
+        border: none;
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 24px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        font-family: "Courier New";
+        margin-right: 80px;
+        background-color: white;
+        color: black;
+
+    }
+
+    .syntaxBtn{
+        border: none;
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 24px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        font-family: "Courier New";
+        margin-left: 80px;
+        background-color: white;
+        color: black;
+    }
+
+    .submitBtn {
+        border: none;
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 24px;
+        margin: auto;
+        margin-top: 20px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        font-family: "Courier New";
+    }
+
+    .downloadBtn{
+        margin: auto;
+        border: none;
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 24px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        font-family: "Courier New";
+        background-color: white;
+        color: black;
+    }
+    .form {
+        color: black;
+        text-align: center;
+        padding: 10px;
+        margin: auto;
+        font-family: "Courier New";
+    }
+
+    .label {
+        font-size: 20px;
+    }
+
+    .tickerInput {
+        width: 200px;
+        border: 2px solid black;
+        font-family: "Courier New";
+        font-size: 18px;
+        text-align: center;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    .dateFromInput {
+        font-family: "Courier New";
+        height: 45px;
+        font-size: 14px;
+        margin-right: 40px;
+        padding-left: 20px;
+    }
+
+    .dateEndInput {
+        font-family: "Courier New";
+        font-size: 14px;
+        padding-left: 20px;
+        height: 45px;
+    }
+
+
+    .span {
+        font-family: "Courier New";
+        font-size: 18px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    footer {
+        text-align: center;
+        font-family: "courier new";
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+
+    .disclaimer {
+      font-size: 10px;
+    }
+
+    #lineChart {
+      display: block;
+      margin-left: auto;
+      margin-right: auto
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+        .header1 {
+        padding-top: 30px;
+        color: black;
+        text-align: center;
+        padding: 10px;
+        margin: auto;
+        font-family: "Courier New";
+    }
+
+    h1 {
+        font-weight: normal;
+        color: black;
+        text-align: center;
+        padding-top: 20px;
+        font-family: "Courier New";
+        font-size: 46px;
+    }
+
+    h2 {
+      text-align: center;
+      font-weight: 10;
+      font-family: "courier new";
+}
+
+    .div1{
+        color: black;
+        text-align: center;
+        font-family: "Courier New";
+        font-size: 28px;
+        padding-bottom: 40px;
+    }
+
+
+    .homeBtn {
+        border: none;
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 24px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        font-family: "Courier New";
+        margin-right: 80px;
+        background-color: white;
+        color: black;
+
+    }
+
+    .syntaxBtn{
+        border: none;
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 24px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        font-family: "Courier New";
+        margin-left: 80px;
+        background-color: white;
+        color: black;
+    }
+
+    .submitBtn {
+        border: none;
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 24px;
+        margin: auto;
+        margin-top: 20px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        font-family: "Courier New";
+    }
+
+    .downloadBtn{
+        margin: auto;
+        border: none;
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 24px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        font-family: "Courier New";
+        background-color: white;
+        color: black;
+    }
+    .form {
+        color: black;
+        text-align: center;
+        padding: 10px;
+        margin: auto;
+        font-family: "Courier New";
+    }
+
+    .label {
+        font-size: 20px;
+    }
+
+    .tickerInput {
+        width: 200px;
+        border: 2px solid black;
+        font-family: "Courier New";
+        font-size: 18px;
+        text-align: center;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    .dateFromInput {
+        font-family: "Courier New";
+        height: 45px;
+        font-size: 14px;
+        margin-right: 40px;
+        padding-left: 20px;
+    }
+
+    .dateEndInput {
+        font-family: "Courier New";
+        font-size: 14px;
+        padding-left: 20px;
+        height: 45px;
+    }
+
+
+    .span {
+        font-family: "Courier New";
+        font-size: 18px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    footer {
+        text-align: center;
+        font-family: "courier new";
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+
+    .disclaimer {
+      font-size: 10px;
+    }
+
+    #lineChart {
+      display: block;
+      margin-left: auto;
+      margin-right: auto
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+        .header1 {
+        padding-top: 30px;
+        color: black;
+        text-align: center;
+        padding: 10px;
+        margin: auto;
+        font-family: "Courier New";
+    }
+
+    h1 {
+        font-weight: normal;
+        color: black;
+        text-align: center;
+        padding-top: 20px;
+        font-family: "Courier New";
+        font-size: 46px;
+    }
+
+    h2 {
+      text-align: center;
+      font-weight: 10;
+      font-family: "courier new";
+}
+
+    .div1{
+        color: black;
+        text-align: center;
+        font-family: "Courier New";
+        font-size: 28px;
+        padding-bottom: 40px;
+    }
+
+
+    .homeBtn {
+        border: none;
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 24px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        font-family: "Courier New";
+        margin-right: 80px;
+        background-color: white;
+        color: black;
+
+    }
+
+    .syntaxBtn{
+        border: none;
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 24px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        font-family: "Courier New";
+        margin-left: 80px;
+        background-color: white;
+        color: black;
+    }
+
+    .submitBtn {
+        border: none;
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 24px;
+        margin: auto;
+        margin-top: 20px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        font-family: "Courier New";
+    }
+
+    .downloadBtn{
+        margin: auto;
+        border: none;
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 24px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        font-family: "Courier New";
+        background-color: white;
+        color: black;
+    }
+    .form {
+        color: black;
+        text-align: center;
+        padding: 10px;
+        margin: auto;
+        font-family: "Courier New";
+    }
+
+    .label {
+        font-size: 20px;
+    }
+
+    .tickerInput {
+        width: 200px;
+        border: 2px solid black;
+        font-family: "Courier New";
+        font-size: 18px;
+        text-align: center;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    .dateFromInput {
+        font-family: "Courier New";
+        height: 45px;
+        font-size: 14px;
+        margin-right: 40px;
+        padding-left: 20px;
+    }
+
+    .dateEndInput {
+        font-family: "Courier New";
+        font-size: 14px;
+        padding-left: 20px;
+        height: 45px;
+    }
+
+
+    .span {
+        font-family: "Courier New";
+        font-size: 18px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    footer {
+        text-align: center;
+        font-family: "courier new";
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+
+    .disclaimer {
+      font-size: 10px;
+    }
+
+    #lineChart {
+      display: block;
+      margin-left: auto;
+      margin-right: auto
+    }
+}
+
+
+.syntaxBtn:hover {
+      background-color: gray;
+      color: white;
+}
+
+.homeBtn:hover {
+      background-color: gray;
+      color: white;
+}
+
+.downloadBtn:hover {
+      background-color: gray;
+      color: white;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+
+.downloadDiv {
+    text-align: center;
+}
