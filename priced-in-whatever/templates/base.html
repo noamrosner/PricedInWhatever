@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <title>Priced In Whatever</title>
+    {% block head %} {% endblock %}
+  </head>
+<body>
+    <div>
+    <header class="header1">
+        <h1>priced-in-whatever.com</h1>
+    </header>
+    </div>
+    <div class="div1">
+      <a href="/"><button class="homeBtn">home</button></a>
+      <a href="/syntax"><button class="syntaxBtn">input syntax</button></a>
+    </div>
+
+    {% block content %}{% endblock %}
+
+<footer>
+  <p>made by noam r. and zachary m.</p>
+  <p class="disclaimer">all information is provided as is and is not intended for professional use. all rights reserved.</p>
+</footer>
+</body>
+</html>

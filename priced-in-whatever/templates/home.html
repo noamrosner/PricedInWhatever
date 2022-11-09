@@ -1,0 +1,24 @@
+
+{% extends "base.html" %}
+
+{% block head%}
+  <link rel="stylesheet" href="{{ url_for('static', filename= 'css/home.css') }}">
+{% endblock %}
+
+{% block content %}
+    <div>
+        <form method='POST' class="form">
+            <div class="tickerDiv">
+                <label for="stock1" placeholder="Ticker symbol"></label>
+                <input class="tickerInput" type="text" id="stock1" name="stock1" placeholder="Ticker symbol">
+
+                <span class="span">priced in</span>
+
+                <label for="stock1" placeholder="Ticker symbol"></label>
+                <input class="tickerInput" type="text" id="stock2" name="stock2" placeholder="Ticker symbol"><br><br>
+            </div>
+
+            <input class="submitBtn" type="submit" value="Submit">
+        </form>
+    </div>
+{% endblock %}

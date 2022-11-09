@@ -1,0 +1,165 @@
+
+{% extends "base.html" %}
+
+{% block head%}
+  <link rel="stylesheet" href="{{ url_for('static', filename= 'css/inputsyntax.css') }}">
+{% endblock %}
+
+{% block content %}
+  <br>
+    <h2>a comprehensive list of different markets, financial instruments, and their tickers</h2>
+    <p>all standard tickers can be used in the chart generator. for more rules for individual tickers, continue reading.</p>
+  <br>
+  <div class="container">
+  <hr>
+  <section>
+  <h3>commodities</h3>
+    <h4>energy</h4>
+      <ul>
+        <li><b>cl=f</b>: crude oil (bbl)</li>
+        <li><b>bz=f</b>: brent (bbl)</li>
+        <li><b>ng=f</b>: natural gas (mm-btu)</li>
+        <li><b>rb=f</b>: gasoline (gal)</li>
+        <li><b>ho=f</b>: heating oil (gal)</li>
+        <li><b>mtf=f</b>: coal (ton)</li>
+        <li><b>b0=f</b>: propane (gal)</li>
+        <li><b>cu=f</b>: ethanol (gal)</li>
+      </ul>
+    <h4>metals</h4>
+      <ul>
+        <li><b>gc=f</b>: gold (troy oz)</li> <!--adding grams as gold (grams) : gc=f* ?-->
+        <li><b>si=f</b>: silver (troy oz)</li> 
+        <li><b>hg=f</b>: copper (lbs)</li>
+        <li><b>rb=f</b>: platinum (troy oz)</li>
+      </ul>
+    <h4>agricultural</h4>
+      <ul>
+        <li><b>zs=f</b>: soybean (bu)</li> <!--usx: convert us cents to usd-->
+        <li><b>zm=f</b>: soybean meal (bu)</li>
+        <li><b>zl=f</b>: soybean oil (bu)</li> <!--usx: convert us cents to usd-->
+        <li><b>zw=f</b>: chicago wheat (bu)</li> <!--usx: convert us cents to usd-->
+        <li><b>ke=f</b>: kansas city wheat (bu)</li> <!--usx: convert us cents to usd-->
+        <li><b>lbs=f</b>: lumber (1000 board ft.)</li> 
+        <li><b>blk=f</b>: cheese block (lbs)</li>
+        <li><b>csc=f</b>: cheese barrel (lbs)</li>
+        <li><b>gnf=f</b>: nonfat dry milk (cwt)</li>
+        <li><b>dc=f</b>: class iii milk; cream cheese (cwt)</li>
+        <li><b>gdk=f</b>: class iv milk; butter (cwt)</li>
+        <li><b>oj=f</b>: orange juice (lbs)</li> <!--usx: convert us cents to usd-->
+        <li><b>kc=f</b>: coffee (lbs)</li> <!--usx: convert us cents to usd-->
+        <li><b>sb=f</b>: raw sugar (lbs)</li> <!--usx: convert us cents to usd-->
+        <li><b>sf=f</b>: white sugar (lbs)</li> <!--usx: convert us cents to usd-->
+        <li><b>ct=f</b>: cotton (lbs)</li> <!--usx: convert us cents to usd-->
+        <li><b>cc=f</b>: cocoa (ton)</li>
+        <li><b>zo=f</b>: oat (bu)</li> <!--usx: convert us cents to usd-->
+        <li><b>zr=f</b>: rough rice (cwt)</li>
+        <li><b>cb=f</b>: butter (lbs)</li> <!--usx: convert us cents to usd-->
+        <li><b>zc=f</b>: corn (bu)</li> <!--usx: convert us cents to usd-->
+      </ul>
+    <h4>industrial</h4>
+      <ul>
+        <li><b>ali=f</b>: aluminum (ton)</li>
+        <li><b>pa=f</b>: palladium (troy oz)</li>
+        <li><b>ufv=f</b>: urea (ton)</li>
+      </ul>
+    <h4>live stock</h4>
+      <ul>
+        <li><b>gf=f</b>: feeder cattle (lbs)</li>
+        <li><b>le=f</b>: live cattle (lbs)</li>
+        <li><b>he=f</b>: lean hogs (lbs)</li>
+      </ul>
+  </section>
+  <br>
+  <hr>
+  <section>
+  <h3>equities</h3>
+    <h4>usa</h4>
+      <ul>
+        <li><b>aapl</b>: apple</li>
+        <li><b>msft</b>: microsoft</li>
+        <li><b>googl</b>: google</li>
+        <li><b>amzn</b>: amazon</li>
+        <li><b>tsla</b>: tesla</li>
+        <li><b>brk-a</b>: berkshire hathaway</li>
+        <li><b>unh</b>: unitedhealth</li>
+        <li><b>jnj</b>: johnson & johnson</li>
+        <li><b>nvda</b>: nivdia</li>
+        <li><b>v</b>: visa</li>
+        <li><b>meta</b>: meta</li>
+        <li><b>xom</b>: exxon mobil</li>
+        <li><b>wmt</b>: wal-mart</li>
+        <li><b>pg</b>: procter & gamble</li>
+        <li><b>ma</b>: mastercard</li>
+        <li><b>jpm</b>: jp morgan chase</li>
+        <li><b>lly</b>: eli lilly</li>
+        <li><b>hd</b>: home depot</li>
+        <li><b>cvx</b>: chevron</li>
+        <li><b>pfe</b>: pfizer</li>
+        <li><b>ko</b>: coca-cola</li>
+        <li><b>bac</b>: bank of america</li>
+        <li><b>abbv</b>: abbvie</li>
+        <li><b>pep</b>: pepsico</li>
+        <li><b>cost</b>: costco</li>
+      </ul>
+    <h4>canada</h4>
+      <ul>
+        <li><b>ry.to</b>: royal bank</li>
+        <li><b>td.to</b>: toronto dominion</li>
+        <li><b>enb.to</b>: enbridge</li>
+        <li><b>cnr.to</b>: canada national railway</li>
+        <li><b>bns.to</b>: scotiabank</li>
+        <li><b>cp.to</b>: canada pacific railway</li>
+        <li><b>bmo.to</b>: bank of montreal</li>
+        <li><b>cnq.to</b>: canadian natural resources</li>
+        <li><b>trp.to</b>: tc energy</li>
+        <li><b>tri.to</b>: thomson-reuters</li>
+        <li><b>ntr.to</b>: nutrien</li>
+        <li><b>su.to</b>: suncor energy</li>
+        <li><b>bce.to</b>: bell canada</li>
+        <li><b>cm.to</b>: cibc</li>
+        <li><b>atd.to</b>: couche-tard</li>
+        <li><b>cve.to</b>: cenovus energy</li>
+        <li><b>csu.to</b>: constellation software</li>
+        <li><b>mfc.to</b>: manulife</li>
+        <li><b>wcn.to</b>: waste connections</li>
+        <li><b>t.to</b>: telus</li>
+        <li><b>l.to</b>: loblaws</li>
+        <li><b>imo.to</b>: imperial oil</li>
+        <li><b>abx.to</b>: barrick gold</li>
+        <li><b>slf.to</b>: sun life</li>
+        <li><b>fnv.to</b>: franco nevada</li>
+      </ul>
+    <h4>mexico</h4>
+      <ul>
+        <li><b>walmex.mx</b>: wal-mart de mexico</li>
+        <li><b>amxl.mx</b>: america movil</li>
+        <li><b>gmexicob.mx</b>: grupo mexico</li>
+        <li><b>gfnorte.mx</b>: grupo financiero banorte</li>
+        <li><b>bimbo.mx</b>: grupo bimbo</li>
+        <li><b>femsaubd.mx</b>: fomento economico mexicano</li>
+        <li><b>elektra.mx</b>: grupo elektra</li>
+        <li><b>ac.mx</b>: arca continental</li>
+        <li><b>gfinburo.mx</b>: grupo financiero inbursa</li>
+        <li><b>gcarsoa1.mx</b>: grupo carso</li>
+      </ul>
+  </section>
+  <br>
+  <hr>
+  <section>
+  <h3>currencies</h3>
+    <h4>majors</h4>
+      <ul>
+        <li><b>usd</b>: us dollar</li>
+        <li><b>cad</b>: canadian dollar</li>
+        <li><b>gbp</b>: british pound</li>
+        <li><b>eur</b>: euro</li>
+        <li><b>jpy</b>: japanese yen</li>
+        <li><b>rub</b>: russian ruble</li>
+        <li><b>aud</b>: australian dollar</li>
+        <li><b>nzd</b>: new zealand dollar</li>
+        <li><b>rmb</b>: chinese rimbian</li>
+      </ul>
+    </div>
+    <br>
+
+{% endblock %}
