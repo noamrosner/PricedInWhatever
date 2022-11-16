@@ -1,5 +1,13 @@
 # priced in whatever #
 
+
+Site Preview:
+
+<img width="950" alt="Screen Shot 2022-10-03 at 17 07 32" src="https://user-images.githubusercontent.com/95490556/193598178-60366faa-56bd-4266-b415-fd5b7915662a.png">
+
+
+
+
 ## about priced in whatever ##
 priced in whatever (piw) is a python web app built for one function, measuring assets against other assets. piw allows users to price any asset in another. an example of this would be pricing spy (sp 500 ETF) in aapl (apple stock) to see how many apple shares 1 spy share can buy over time. the utility in this is that most assets are priced against a currency like the u.s. dollar or the euro. although this is a standard measuring stick, it does not give an investor a clear picture of the return of a stock relative to other assets. 
 
@@ -31,8 +39,3 @@ Zachary Merhi is an undergraduate student at mcgill university studying economic
 
 ## contact and collaboration ##
 we appreciate feedback and recommendations as it helps us make piw a better tool for all. moreover, if you have an idea you would like to share related to piw, feel free to contact us.
-
-
-Site Preview:
-
-<img width="950" alt="Screen Shot 2022-10-03 at 17 07 32" src="https://user-images.githubusercontent.com/95490556/193598178-60366faa-56bd-4266-b415-fd5b7915662a.png">
