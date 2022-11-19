@@ -59,10 +59,6 @@ def home():
             print(f"curr1 - {curr1}, curr2 - {curr2}")
             print("after currency setup") ##########################
 
-            """     
-            date_end = format_date(date_end)
-            common_date = format_date(common_date)
-            """
 
             if curr1 != curr2: # conversion is needed
                 if curr1 == "usd":
